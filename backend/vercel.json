@@ -9,12 +9,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
+      "dest": "/",
       "headers": [
         {
           "key": "Content-Security-Policy",
