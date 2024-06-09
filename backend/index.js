@@ -35,7 +35,7 @@ app.use(
 app.use(
   cors({
     credentials: true,
-    origin: "https://smartaudio.my.id",
+    origin: "http://153.92.10.69/",
   })
 );
 
