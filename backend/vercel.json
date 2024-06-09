@@ -10,12 +10,9 @@
     {
       "src": "/(.*)",
       "dest": "/",
-      "headers": [
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'none'; img-src 'self' data:"
-        }
-      ]
+      "headers": {
+        "Content-Security-Policy": "default-src 'none'; img-src 'self' data:"
+      }
     }
   ]
 }
