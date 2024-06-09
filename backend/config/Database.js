@@ -7,6 +7,7 @@ const db = new Sequelize(
   {
     host: "bxeulshj14cdw15sx6el-mysql.services.clever-cloud.com",
     dialect: "mysql",
+    port: 3306,
   }
 );
 
